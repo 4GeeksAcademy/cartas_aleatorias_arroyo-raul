@@ -1,5 +1,58 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
-
 body{
+    background: green;
+}
+
+/*CARTA*/
+.carta {
     background: white;
+    width: 350px;
+    height: 600px;
+    box-sizing:border-box;
+    margin: auto;
+    font-size: 110px;
+    padding:  0 10px 0 10px;
+    border-radius: 20px;
+}
+
+/*SÍMBOLOS*/
+.rojo {
+    color: red;
+}
+
+.negro {
+    color: black;
+}
+
+.invertido {
+    rotate: 180deg;
+}
+
+/*NÚMERO*/
+.numero {
+    text-align: center;
+}
+
+/*BUTTON*/
+button {
+    background-color: yellow;
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 40px;
+    border: 2px solid rgb(199, 199, 0);
+    border-radius: 10px;
+}
+
+button:hover {
+    background: rgb(199, 199, 0);
+}
+
+/*CRONÓMETRO*/
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: -50px;
+    color: yellow;
 }
